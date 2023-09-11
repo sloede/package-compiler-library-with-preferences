@@ -1,4 +1,5 @@
 [deps]
+LibMWE = "eedc94ec-7a2d-48e6-bfb3-c88aecf0290b"
 PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
 Preferences = "21216c6a-2e73-6563-6e65-726566657250"
 
