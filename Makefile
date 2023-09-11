@@ -12,6 +12,7 @@ mwe: mwe.c
 	$(CC) $^ -o $@ $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) $(LIBS)
 
 lib:
+	julia --project=. -e 'using Pkg; Pkg.instantiate(); include("build.jl")'
 
 clean:
 	rm -f mwe
