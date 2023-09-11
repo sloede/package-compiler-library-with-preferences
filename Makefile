@@ -14,7 +14,11 @@ mwe: mwe.c
 lib:
 	julia --project=. -e 'using Pkg; Pkg.instantiate(); include("build.jl")'
 
+set-runtime-prefs:
+	cp runtime-prefs/Project.toml build/share/julia/Project.toml
+	cp runtime-prefs/LocalPreferences.toml build/share/julia/LocalPreferences.toml
+
 clean:
 	rm -f mwe
 
-.PHONY: mwe clean all lib
+.PHONY: mwe clean all lib set-runtime-prefs
