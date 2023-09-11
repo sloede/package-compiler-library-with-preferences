@@ -7,4 +7,4 @@ version = "0.1.0"
 Preferences = "21216c6a-2e73-6563-6e65-726566657250"
 
 # [preferences.LibMWE]
-# compile_time_value = 10
+# compile_time_value = 40
