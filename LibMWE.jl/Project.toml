@@ -1,0 +1,10 @@
+authors = ["Michael Schlottke-Lakemper <michael@sloede.com>"]
+name = "LibMWE"
+uuid = "eedc94ec-7a2d-48e6-bfb3-c88aecf0290b"
+version = "0.1.0"
+
+[deps]
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"
+
+# [preferences.LibMWE]
+# compile_time_value = 10
