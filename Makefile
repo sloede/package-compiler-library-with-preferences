@@ -1,4 +1,4 @@
-PREFIX = build
+PREFIX = $(PWD)/build
 
 CC ?= gcc
 CPPFLAGS ?= -I$(PREFIX)/include

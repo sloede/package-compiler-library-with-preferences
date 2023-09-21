@@ -2,6 +2,7 @@
 
 #include <mwe.h>
 #include <julia_init.h>
+#include <init.h>
 
 int main() {
   int argc = 0;
@@ -12,6 +13,8 @@ int main() {
   printf("run_time_value = %d\n", mwe_get_run_time_value());
 
   mwe_print_paths();
+
+  wololo();
 
   shutdown_julia(0);
 

@@ -21,6 +21,7 @@ Base.@ccallable function mwe_print_paths()::Cvoid
     @show JULIA_LOAD_PATH
     @show DEPOT_PATH
     @show LOAD_PATH
+    @show Base.get_preferences()
 
     return nothing
 end
