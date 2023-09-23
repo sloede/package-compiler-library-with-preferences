@@ -1,0 +1,4 @@
+[deps]
+LibMWE = "eedc94ec-7a2d-48e6-bfb3-c88aecf0290b"
+MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
+MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"

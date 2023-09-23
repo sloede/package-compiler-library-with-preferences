@@ -26,4 +26,9 @@ Base.@ccallable function mwe_print_paths()::Cvoid
     return nothing
 end
 
+Base.@ccallable function mwe_eval_string(code::Cstring)::Cvoid
+    Base.eval(Main, Meta.parse(unsafe_string(code)))
+    return
+end
+
 end # module LibMWE
