@@ -47,6 +47,21 @@ DEPOT_PATH = ["build/share/julia"]
 LOAD_PATH = ["build/share/julia"]
 ```
 
+# Usage with MPI
+To test with MPI, use
+```shell
+make mwe-mpi-fpic
+./mwe-mpi-fpic
+```
+or
+```shell
+make-mwe-mpi-no-fpic
+./mwe-mpi-no-fpic
+```
+Note that you also need to update the `project/LocalPreferences.toml` file to match your
+system MPI installation and might have to supply a different `MPI_PREFIX` to the call the
+`make`. The committed settings are valid for Ubuntu and OpenMPI installed via `apt-get`.
+
 
 ## Author
 Michael Schlottke-Lakemper

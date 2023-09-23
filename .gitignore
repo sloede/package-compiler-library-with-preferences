@@ -1,3 +1,6 @@
 mwe
+mwe-mpi-fpic
+mwe-mpi-no-fpic
 Manifest.toml
 build
+init.o
